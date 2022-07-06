@@ -1,4 +1,5 @@
 import os
+import multiprocessing
 
 import torch
 import torch.optim as optim
@@ -17,7 +18,7 @@ def get_config():
         "model_name": "resnet18",
         "epochs": 10,
         "num_classes": 10,
-        "num_workers": 8,
+        "num_workers": min(8, multiprocessing.cpu_count()),
         "batch_size": 512,
         "device": "cuda" if torch.cuda.is_available() else "cpu"
     }
