@@ -14,9 +14,14 @@ $ docker run -itd --name wandb_practice --net=host --ipc=host --gpus all -v /hos
 $ docker attach wandb_practice
 ```
 
+## Python Library
+
+```
+$ pip3 install -r requirements.txt
+```
+
 ## Wandb
 
 ```
-$ pip3 install wandb==0.12.21 # Install Wandb
 $ wandb login #https://wandb.ai/authorize 에 있는 Token 값 입력
 ```
