@@ -3,6 +3,7 @@
 
 # Wandb
 wandb/
+data/
 
 ### C++ ###
 # Prerequisites
