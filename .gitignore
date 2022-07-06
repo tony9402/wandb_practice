@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/vim,linux,jupyternotebooks,python,c++,java,windows,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=vim,linux,jupyternotebooks,python,c++,java,windows,macos
 
+# Wandb
+wandb/
+
 ### C++ ###
 # Prerequisites
 *.d
